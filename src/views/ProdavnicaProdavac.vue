@@ -5,13 +5,13 @@
         </div>
         <div class="proizvod">
             <div class="form-group">
-                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Naziv" v-model='naziv'>
+                <input type="text" class="form-control" id="formGroupExampleInput1" placeholder="Naziv" v-model='naziv'>
             </div>
             <div class="form-group">
-                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Cena" v-model='cena'>
+                <input type="text" class="form-control" id="formGroupExampleInput1" placeholder="Cena" v-model='cena'>
             </div>
             <div class="form-group">
-                <textarea type="text" class="form-control" id="formGroupExampleInput" placeholder="Opis" v-model='opis'></textarea>
+                <textarea type="text" class="form-control" id="formGroupExampleInput1" placeholder="Opis" v-model='opis'></textarea>
             </div>
             <div class="form-group">
                 <textarea type="text" class="form-control input-lg" id="inputlg" placeholder="Način upotrebe" v-model='nacinupotrebe'><textarea></textarea>
@@ -100,6 +100,9 @@
         margin-top: -17%;
     }
     #dodajProizvod{
+        width: 100%;
+    }
+    #formGroupExampleInput1{
         width: 100%;
     }
 </style>

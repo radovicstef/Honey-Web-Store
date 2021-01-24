@@ -51,7 +51,7 @@
   }
   .container{
     justify-content: center;
-    margin-bottom: 25%;
+    margin-bottom: 30%;
     width: 1200px;
     margin-left: 20%;
   }
@@ -60,6 +60,5 @@
     position: absolute;
     height: 1000px;
     padding: 100px;
-    left: 22%;
   }
 </style>

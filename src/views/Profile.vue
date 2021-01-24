@@ -6,22 +6,28 @@
                 <br/>
                 <br/>
                   <div class="form-group">
-                  <input type="text" class="form-control" id="formGroupExampleInput" :placeholder="user.firstName" v-model='user.firstName'>
+                    Ime
+                    <input type="text" class="form-control" id="formGroupExampleInput" :placeholder="user.firstName" v-model='user.firstName'>
                   </div>
                   <div class="form-group">
+                      Prezime
                       <input type="text" class="form-control" id="formGroupExampleInput" :placeholder="user.lastName" v-model='user.lastName'>
                   </div>
                   <div class="form-group">
+                      Email
                       <input type="text" class="form-control" id="formGroupExampleInput" :placeholder="user.email" v-model='user.email'>
                   </div>
                   <div class="form-group">
+                      Telefon
                       <input type="text" class="form-control" id="formGroupExampleInput" :placeholder="user.phone" v-model='user.phone'>
                   </div>
                   <div class="form-group">
+                      Adresa
                       <input type="text" class="form-control" id="formGroupExampleInput" :placeholder="user.address" v-model='user.address'>
                   </div>
                   <div class="form-group mx-sm-3 mb-2">
                   <label for="inputPassword2" class="sr-only">Password</label>
+                  Šifra
                   <input class="form-control" id="inputPassword2" :placeholder="user.password" v-model='user.password'>
                   </div>
                   <br/>
